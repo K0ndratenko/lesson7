@@ -1,4 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-ThinCond.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-ThinCond.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-CondensedBold.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-CondensedBold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/Helvetica-Condensed-Black.woff2") format("woff2"),
+		url("../fonts/Helvetica-Condensed-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
 *::before,
@@ -45,3 +73,81 @@ body {
 	min-height: 100%;
 	/* overflow: hidden; */
 }
+
+/* PS знаю у меня тут проблема со шрифтами , в интернете не смог нормальное семейство скачать всё в разнобои ... */
+
+body{
+	background-color: #191919;
+}
+.task-7 {
+	border-radius: 8px;
+	max-width: 350px;
+	margin: 100px 0 0 100px;
+	background-color: #252525;
+	font-family: "Helvetica Neue", sans-serif;
+}
+.content :not(.img-food-task7) {
+	padding-left: 30px;
+}
+
+.img-food-task7 {
+	margin-bottom: 29px;
+}
+.heading {
+	max-width: 290px;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 30px;
+	color: #d9d9d9;
+}
+
+.text-served {
+	max-width: 290;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: -0.15px;
+	color: #a4a8b2;
+	margin-bottom: 20px;
+}
+
+.text-choice {
+	max-width: 290px;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.16px;
+	color: #85878c;
+	margin-bottom: 20px;
+}
+.icon {
+	padding-left: 35px;
+	padding-top: 6px;
+	margin-right: 14px;
+	padding-bottom: 28px;
+}
+
+.number-of-order {
+	display: inline-block;
+	font-weight: 600;
+	max-width: 14px;
+	color: #b3b3b3;
+	font-size: 12px;
+	margin-right: 43px;
+	padding-top: 9px;      /* как то на глаз мерял ( не смог нормально что то придумать кроме такого костыля) */
+ } 
+
+/* хотел кнопку сдлать как тег баттон - но не получилось */
+.button {
+	display: inline-block;
+	text-transform: uppercase;
+	width: 100px;
+	height: 40px;
+	vertical-align: top;
+	border-radius: 25px;
+	color: rgba(255, 255, 255, 0.452);
+	border: 2px solid rgba(255, 255, 255, 0.452);
+
+	text-align: center;
+	line-height: 35px;
+ } 
