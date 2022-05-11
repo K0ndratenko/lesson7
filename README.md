@@ -1,9 +1,3 @@
-### hello =)
-
-#### ПРойденные темы 
-* Основные Теги 
-* Css силекторы
-* Fonts + свойства 
-* margin padding (display свойство block/inline-block/inline.....)
-* Свойства блоков(border/outline/box-shadow/visabylity.....)
-* Свойство background 
+# таск 5
+ __maket Cutspace__
+	[link](http://joxi.ru/Y2LOjDLFMqVqzm)
