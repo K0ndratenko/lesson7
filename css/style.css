@@ -1,4 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-ThinCond.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-ThinCond.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-CondensedBold.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-CondensedBold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/Helvetica-Condensed-Black.woff2") format("woff2"),
+		url("../fonts/Helvetica-Condensed-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
 *::before,
@@ -45,3 +73,50 @@ body {
 	min-height: 100%;
 	/* overflow: hidden; */
 }
+.block{
+	padding: 78px 0 0 210px;
+	background: #F5F5F5;
+}
+.card {
+	display: block;    
+	font-family: "Roboto", sans-serif;
+	max-width: 324px;
+	padding: 50px 44px 50px 43px;
+	background-color: #fff;
+	margin-bottom: 24px;
+}
+.card:hover {
+	box-shadow: -1px 12px 5px 5px rgba(39, 69, 92, 0.2);
+}
+.icon-car-task2,
+.icon-wheel-task2 {
+	margin: 0 auto;
+	margin-bottom: 33px;
+	max-height: 63px;
+	max-width: 63px;                     /*  вдруг иконки будут меняться , размер будет прежний */ 
+	display: block;
+}
+
+.name-of-servis {
+	margin: 0 auto;
+	display: block;
+	max-width: 237px;
+	font-weight: 900;
+	size: 19px;
+	line-height: 26px;
+	text-align: center;
+	color: #02133c;
+	margin-bottom: 20px;
+}
+
+.text {
+	margin: 0 auto;
+	display: block;
+	max-width: 235px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-align: center;
+	color: #4b4b4b;
+} 
