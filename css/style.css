@@ -1,4 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-ThinCond.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-ThinCond.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-CondensedBold.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-CondensedBold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/Helvetica-Condensed-Black.woff2") format("woff2"),
+		url("../fonts/Helvetica-Condensed-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
 *::before,
@@ -44,4 +72,45 @@ body {
 .wrapper {
 	min-height: 100%;
 	/* overflow: hidden; */
+}
+
+.task-3 {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.topic-of-article {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+	max-width: 1398px;
+	margin-bottom: 26px;
+	padding-left: 50px;
+	margin-top: 50px;
+}
+
+.general-terms {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 19px;
+	text-transform: uppercase;
+	padding-left: 50px;
+	max-width: 866px;
+}
+.wrap {
+	padding-left: 48px;
+	max-width: 1039px;
+	
+	overflow: auto;
+}
+
+.heading {
+	padding-top: 30px;
+	font-weight: 600;
+}
+.main-text {
+	padding-top: 30px;
+	font-weight: 300;
 }
