@@ -1,9 +1,4 @@
-### hello =)
-
-#### ПРойденные темы 
-* Основные Теги 
-* Css силекторы
-* Fonts + свойства 
-* margin padding (display свойство block/inline-block/inline.....)
-* Свойства блоков(border/outline/box-shadow/visabylity.....)
-* Свойство background 
+#таск3 
+ макет Tech Online Store Design
+ [cсылка на скрин](http://joxi.ru/xAewGXlubPv5Zm)
+	
