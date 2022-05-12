@@ -1,9 +1,4 @@
-### hello =)
-
-#### ПРойденные темы 
-* Основные Теги 
-* Css силекторы
-* Fonts + свойства 
-* margin padding (display свойство block/inline-block/inline.....)
-* Свойства блоков(border/outline/box-shadow/visabylity.....)
-* Свойство background 
+## Task-1
+___
+[макет- Car Repair and Doggie](http://joxi.ru/EA4GNbeHvxkxJ2)
+пс(скрин в ссылке)
