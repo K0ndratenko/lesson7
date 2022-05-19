@@ -1,9 +1,4 @@
-### hello =)
+### Task 8
 
-#### ПРойденные темы 
-* Основные Теги 
-* Css силекторы
-* Fonts + свойства 
-* margin padding (display свойство block/inline-block/inline.....)
-* Свойства блоков(border/outline/box-shadow/visabylity.....)
-* Свойство background 
+Верстаем блок из макета (Car Repair and Doggie)
+  http://joxi.ru/V2VJnvkt8axZb2
